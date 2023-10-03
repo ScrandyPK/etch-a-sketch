@@ -1,0 +1,36 @@
+
+/* sets the height of the entire grid */
+.grid {
+    height: 70vh;
+    width: 80vw;
+  }
+  /* Creates a hover effect that changes the background color to blue.  */
+  /* Selects the .grid class and all of the div elements within that */
+.grid div:hover {
+    background-color: blue;
+    color: red;
+}
+
+
+
+
+
+
+
+
+/* Normal state styles */
+.hover-element {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover state styles */
+.hover-element.hovered {
+    background-color: #e74c3c;
+}
