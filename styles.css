@@ -1,15 +1,37 @@
-container {
-    display: flex;
+html, body {
     height: 100%;
+    width: 100%;
 }
 
-container div {
+.container {
+    /* height: 100%; */
+    width: 100%;
+    /* min-width: 100%; */
+    min-height: 50%;
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.column {
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    display: flex;
+}
+.row{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
     flex: 1;
-    border: .5px dashed black;
-    flex-basis: 100%;
 }
 
-container div:hover {
+.column div :hover {
+    background-color: blue;
+    color: white;
+}
+
+.row :hover {
     background-color: blue;
     color: white;
 }
